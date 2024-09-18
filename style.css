@@ -1,5 +1,129 @@
-.header{
-    display: flex;
-}
+
+    body {
+        margin: 0;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 17px 60px;
+        background-color: #000;
+    }
+    .header a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 26px;
+    }
+    .header .logo img {
+        height: 44px;
+    }
+    .header .nav {
+        display: flex;
+        align-items: center;
+    }
+    .header .btn {
+        background-color: #ff377eff;
+        padding: 12px;
+        border-radius: 15px;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        text-align: center;
+    }
+    .hero {
+        background-image: url('./assets/hero-background.jpg');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 150px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero h1 {
+        font-size: 64px;
+        font-weight: 400;
+    }
+    .hero p {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+    .hero button {
+        background-color: #ff377eff;
+        border: none;
+        padding: 20px 60px;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        cursor: pointer;
+    }
+    .content-section {
+        display: flex;
+        justify-content: center;
+        background-color: #1b1616;
+        padding: 60px 0;
+        color: #fff;
+    }
+    .card {
+        background-color: #000;
+        margin: 0 44px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .card img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .card h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    .card p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .card .stars {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .card .stars img {
+        height: 24px;
+        width: 24px;
+        margin: 0 3px;
+    }
+    .card .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card .buttons button {
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .card .info {
+        background-color: #1c1313;
+        color: #fff;
+        flex-grow: 1;
+    }
+    .card .buy {
+        background-color: #ff377eff;
+        color: #fff;
+        font-weight: 700;
+    }
+    .footer {
+        background-color: #1b1616;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 
