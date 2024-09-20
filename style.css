@@ -1,4 +1,9 @@
 
+    :root{
+     --margin-page: 60px;
+     --color-white: #FFFFFF;
+
+    }
     
     *{
         padding: unset;
@@ -10,6 +15,7 @@
     body {
         margin: 0;
         font-family: 'Instrument Sans', sans-serif;
+       
     }
     .header {
         display: flex;
@@ -134,4 +140,15 @@
         align-items: center;
     }
 
+    .frame{
+        display:flex;
+    }
 
+
+@font-face {
+    font-family:'Instrument Sans';
+    src: url(/assets/Fuente/InstrumentSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+   
